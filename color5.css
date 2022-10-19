@@ -1,0 +1,97 @@
+body{
+    background: radial-gradient(circle,rgba(255,0,255,0.8),blue);
+    background-size: cover;
+    background-position: center;
+}
+
+.box{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+.login-box{
+    max-width: 700px;
+    float: none;
+    margin: 150px auto;
+}
+
+.login-left{
+    background: rgba(211,211,211,0.5);
+    padding: 30px;
+}
+
+.login-right{
+     background: #fff;
+     padding: 30px;
+}
+
+.form-control{
+    background-color: transparent !important;
+}
+
+
+
+h2{
+    display: inline;
+    margin: 0;
+  }
+
+  label{
+      line-height: 3em; 
+  }
+
+  table {
+    /* width: 100vw; */
+    border: 2px solid black;
+    /*margin: 0 auto;*/
+  }
+  
+  th{
+      width: 1%;
+  }
+
+
+  
+   th {
+    background-color: black;
+    color: white;
+  }
+
+  tr:nth-child(even) {
+    background-color: #ffffe6;
+  }
+     tr:nth-child(odd) {
+   background-color: #e7f5fe;
+  }
+
+.red-text{
+  color:red;
+}
+
+
+.text-center{
+  line-height: 200%;
+}
+
+.h{
+  display: none;
+}
+
+/*a .btn{
+  float: right;
+  margin: 0 auto;*/
+/*  position: relative;
+  top:0px;*/
+/*}*/
+
+
+tr td{
+  border-width:2px;
+}
+
+
+.right{
+  float:right;
+}
+
